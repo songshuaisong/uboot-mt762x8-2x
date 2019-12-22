@@ -1,0 +1,9 @@
+language: c
+os: linux
+notifications:
+  email:
+    on_success: always
+    on_failure: always
+script:
+  - make
+  - make V=99

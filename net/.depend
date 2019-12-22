@@ -1,0 +1,147 @@
+# 1 "/home/song/mtk-devenv/uboot-mt76x8/net//"
+net.o: net.c /home/song/mtk-devenv/uboot-mt76x8/include/common.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/config.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/configs/rt2880.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/configs/../../autoconf.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/cmd_confdefs.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/bitops.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/bitops.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/types.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/config.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/posix_types.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/stddef.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/posix_types.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/types.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/byteorder.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/byteorder/little_endian.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/byteorder/swab.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/byteorder/generic.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/sgidefs.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/system.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/ptrace.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/isadep.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/string.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/string.h \
+  /opt/buildroot-gcc342/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/include/stdarg.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/part.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/ide.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/flash.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/image.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/u-boot.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/global_data.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/regdef.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/watchdog.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/command.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/net.h bootp.h tftp.h rarp.h \
+  httpd.h ../httpd/uipopt.h ../httpd/httpd.h ../httpd/uip.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/ctype.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/malloc.h ../httpd/uipopt.h \
+  ../httpd/uip_arp.h ../httpd/uip.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/addrspace.h
+# 1 "/home/song/mtk-devenv/uboot-mt76x8/net//"
+tftp.o: tftp.c /home/song/mtk-devenv/uboot-mt76x8/include/common.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/config.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/configs/rt2880.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/configs/../../autoconf.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/cmd_confdefs.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/bitops.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/bitops.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/types.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/config.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/posix_types.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/stddef.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/posix_types.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/types.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/byteorder.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/byteorder/little_endian.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/byteorder/swab.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/byteorder/generic.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/sgidefs.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/system.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/ptrace.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/isadep.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/string.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/string.h \
+  /opt/buildroot-gcc342/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/include/stdarg.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/part.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/ide.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/flash.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/image.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/u-boot.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/global_data.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/regdef.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/command.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/net.h tftp.h bootp.h
+# 1 "/home/song/mtk-devenv/uboot-mt76x8/net//"
+eth.o: eth.c /home/song/mtk-devenv/uboot-mt76x8/include/common.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/config.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/configs/rt2880.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/configs/../../autoconf.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/cmd_confdefs.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/bitops.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/bitops.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/types.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/config.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/posix_types.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/stddef.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/posix_types.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/types.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/byteorder.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/byteorder/little_endian.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/byteorder/swab.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/byteorder/generic.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/sgidefs.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/system.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/ptrace.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/isadep.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/string.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/string.h \
+  /opt/buildroot-gcc342/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/include/stdarg.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/part.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/ide.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/flash.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/image.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/u-boot.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/global_data.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/regdef.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/command.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/net.h
+# 1 "/home/song/mtk-devenv/uboot-mt76x8/net//"
+httpd.o: httpd.c /home/song/mtk-devenv/uboot-mt76x8/include/common.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/config.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/configs/rt2880.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/configs/../../autoconf.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/cmd_confdefs.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/bitops.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/bitops.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/types.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/config.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/posix_types.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/stddef.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/posix_types.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/types.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/byteorder.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/byteorder/little_endian.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/byteorder/swab.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/byteorder/generic.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/sgidefs.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/system.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/ptrace.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/isadep.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/string.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/string.h \
+  /opt/buildroot-gcc342/bin/../lib/gcc/mipsel-linux-uclibc/3.4.2/include/stdarg.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/part.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/ide.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/flash.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/image.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/u-boot.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/global_data.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/asm/regdef.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/command.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/net.h httpd.h \
+  ../httpd/uipopt.h ../httpd/httpd.h ../httpd/uip.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/linux/ctype.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/malloc.h ../httpd/uipopt.h \
+  ../httpd/uip_arp.h ../httpd/uip.h \
+  /home/song/mtk-devenv/uboot-mt76x8/include/spi_api.h

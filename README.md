@@ -1,3 +1,6 @@
+[![Build
+Status](https://travis-ci.com/songshuaisong/uboot-mt762x8-2x.svg?branch=master)](https://travis-ci.com/songshuaisong/uboot-mt762x8-2x)
+
 # uboot-mt76x8-mt762x
 
 After actual testing, the current version supports

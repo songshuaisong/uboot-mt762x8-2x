@@ -5,5 +5,4 @@ notifications:
     on_success: always
     on_failure: always
 script:
-  - make
-  - make V=99
+  - make -f myTest

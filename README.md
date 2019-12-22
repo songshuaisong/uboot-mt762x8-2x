@@ -5,17 +5,21 @@ Status](https://travis-ci.com/songshuaisong/uboot-mt762x8-2x.svg?branch=master)]
 
 After actual testing, the current version supports
 
-  Mt7620: wooya -- mt7628 core board
-  MT7628 : Hi-link -- HLK-7688
-  MT7688 : Hi-link -- HLK-7628
+  - Mt7620: wooya -- mt7628 core board
+  
+  - MT7628 : Hi-link -- HLK-7688
+  
+  - MT7688 : Hi-link -- HLK-7628
 
 # How to use
-* 1.make menuconfig
+* - 1.make menuconfig
+
 ![image](https://github.com/songshuaisong/uboot-mt762x8-2x/blob/master/images/make-menuconfig.png)
 
-* 2.select MT7628 board
-* 3.make clean
-* 4.make
+* - 2.select MT7628 board
+* - 3.make clean
+* - 4.make
+
 ![image](https://github.com/songshuaisong/uboot-mt762x8-2x/blob/master/images/make.png)
 
 # Note

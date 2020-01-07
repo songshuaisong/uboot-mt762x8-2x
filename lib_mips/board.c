@@ -41,8 +41,8 @@ DECLARE_GLOBAL_DATA_PTR;
 int modifies= 0;
 
 #ifdef DEBUG
-   #define DATE      "05/25/2006"
-   #define VERSION   "v0.00e04"
+   #define DATE      "01/06/2020"
+   #define VERSION   "v0.00e06"
 #endif
 #if ( ((CFG_ENV_ADDR+CFG_ENV_SIZE) < CFG_MONITOR_BASE) || \
       (CFG_ENV_ADDR >= (CFG_MONITOR_BASE + CFG_MONITOR_LEN)) ) || \
@@ -2886,7 +2886,7 @@ void gpio_init(void)
 {
 	u32 val;
 	// printf( "MT7688 gpio init : wled and wdt by mango\n" );
-	printf( "\n\nMT768 wifi module: Songshuai 17611100223(qq@1109252300)\n" );
+	printf( "\n\nMT76x8 wifi module: Songshuai 17611100223(qq@1109252300)\n" );
 	//set gpio2_mode 1:0=2b01 wled,p1,p2,p3,p4 is gpio.p0 is ephy
 	val = 0x551;
 	RALINK_REG(0xb0000634)=0x0f<<7;
